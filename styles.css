@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Petit Formal Script", serif;
+}
+
+body {
+    background-image: url(./img/Outdoor1.png);
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    color: #4f4537;
+    width: 120px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #FFBC00;
+    border-radius: 7px;
+    border: none;
+    margin: 19px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border-color:#4f4537;
+    border-style: double;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+p {
+    color: #fff;
+    font-weight: bold;
+}
